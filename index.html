@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .UPContainer{
+            display: grid;
+            grid-template-columns: auto auto ;
+            grid-template-rows:  auto auto;
+
+
+        }
+
+
+        .container1{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: auto auto auto;
+            border: 1px solid slateblue;
+            list-style: none;
+
+        }
+
+        .container2{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: auto auto auto;
+            border: 1px solid cadetblue;
+            list-style: none;
+    
+        }
+
+        .container3{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: auto auto auto;
+            border: 1px solid rebeccapurple;
+            list-style: none;
+
+        }
+        .container4{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: auto auto auto;
+            border: 1px solid blue;
+            list-style: none;
+
+        } 
+
+        .item1{
+            background-color: lightgreen;
+            grid-row: 1/3;
+
+        }
+
+        .item2{
+            background-color: lightyellow;
+            grid-column: 2;
+            /* background-color: rgb(227, 191, 107); */
+
+        }
+
+        .item3{
+            background-color: lightblue;
+        }
+
+        .item4{
+            /* grid-column: ; */
+            
+            background-color: lightyellow;
+
+        }
+
+        .item5{
+            background-color: pink;
+            grid-column: 3/4;
+            grid-row: 2/3 ;
+
+        }
+
+        .item6{
+            background-color: rgb(243, 213, 157);
+
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+    <div class="UPContainer">
+        <div>
+
+            <div class="container1">
+                <li class="item1">1</li>
+                <li class="item2">2</li>
+                <li class="item3">3</li>
+                <li class="item4">4</li>
+                <li class="item5">5</li>
+                <li class="item6">6</li>
+        
+            </div>
+        
+            <div class="container2">
+                <li >7</li>
+                <li>8</li>
+                <li>9</li>
+                <li>10</li>
+                <li>11</li>
+                <li>12</li>
+            </div>
+        
+            </div>
+        
+        
+            <div>
+                <div class="container3">
+                    <li>13</li>
+                    <li>14</li>
+                    <li>15</li>
+                    <li>16</li>
+                    <li>17</li>
+                    <li>18</li>
+                </div>
+            
+                <div class="container4">
+                    <li>19</li>
+                    <li>20</li>
+                    <li>21</li>
+                    <li>22</li>
+                    <li>23</li>
+                    <li>24</li>
+                </div>
+            
+        
+            </div>
+
+    </div>
+
+
+
+
+</body>
+</html>
+
+
